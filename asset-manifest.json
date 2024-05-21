@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Website/static/css/main.4ac0ea4d.css",
-    "main.js": "/Website/static/js/main.1c891937.js",
-    "static/media/Charminar.png": "/Website/static/media/Charminar.8b0331fb9c286b9846df.png",
-    "static/media/SRH_Logo-2.png": "/Website/static/media/SRH_Logo-2.fa9701b2cf0fd91ab535.png",
-    "index.html": "/Website/index.html",
-    "main.4ac0ea4d.css.map": "/Website/static/css/main.4ac0ea4d.css.map",
-    "main.1c891937.js.map": "/Website/static/js/main.1c891937.js.map"
+    "main.css": "/static/css/main.ee3f7277.css",
+    "main.js": "/static/js/main.0258ea1c.js",
+    "static/media/Charminar.png": "/static/media/Charminar.8b0331fb9c286b9846df.png",
+    "static/media/SRH_Logo-2.png": "/static/media/SRH_Logo-2.fa9701b2cf0fd91ab535.png",
+    "index.html": "/index.html",
+    "main.ee3f7277.css.map": "/static/css/main.ee3f7277.css.map",
+    "main.0258ea1c.js.map": "/static/js/main.0258ea1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ac0ea4d.css",
-    "static/js/main.1c891937.js"
+    "static/css/main.ee3f7277.css",
+    "static/js/main.0258ea1c.js"
   ]
 }
