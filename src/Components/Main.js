@@ -33,7 +33,7 @@ function Main() {
         }, []);
   return (
     <div className='Main-container'>
-      <video ref={videoRef} src='/videos/video-2.mp4' autoPlay loop muted />
+      <video src={`${process.env.PUBLIC_URL}/videos/video-1.mp4`} autoPlay loop muted />
       <h1> WELCOME TO MY PAGE! </h1>
       <div className='main-btns'>
         <Button

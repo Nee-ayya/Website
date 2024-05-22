@@ -5,7 +5,8 @@ import './App.css';
 import Home from './pages/Home.js';
 import Services from './pages/Services';
 import Products from './pages/Product';
-import SignUp from './pages/Signup';
+import SignUp from './pages/Signup.tsx';
+import SignIn from './pages/Signup';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/Services' element={ <Services /> } />
           <Route path='/Product' element={ <Products /> } />
           <Route path='/signup' element={ <SignUp /> } />
+          <Route path='/signin' element={ <SignIn /> } />
         </Routes>
       </Router>
     </>

@@ -51,60 +51,10 @@ function Homebar() {
                         </Link>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                {button && (<Link to='/signin'><Button buttonStyle='btn--outline'>SIGN UP / SIGN IN</Button></Link>)}
             </div>
         </nav>
     )
 }
 
 export default Homebar
-
-/*import React from 'react';
-import { Link } from 'react-router-dom';
-import './homebar.css';
-import Button from './Button'; // Ensure you import the Button component correctly
-
-function Homebar() {
-  return (
-    <nav className='Homebar'>
-      <div className='Homebar-container'>
-        <Link to='/' className='homebar-logo'>
-          <i className='fas fa-typo3' />
-          Portfolio
-        </Link>
-        <div className='menu-icon'>
-          <i className='fas fa-bars' />
-        </div>
-        <ul className='nav-menu'>
-          <li className='nav-item'>
-            <Link to='/' className='nav-links'>
-              Home
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/services' className='nav-links'>
-              Services
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/products' className='nav-links'>
-              Product
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/signup' className='nav-links-mobile'>
-              Sign Up
-            </Link>
-          </li>
-        </ul>
-        {/* Add Button with Link for Sign Up }
-        <Link to='/signup' className='nav-links'>
-          <Button buttonStyle='btn--outline'>SIGN UP</Button>
-        </Link>
-      </div>
-    </nav>
-  );
-}
-
-export default Homebar;
- */
