@@ -2,11 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Homebar from './Components/homebar';
 import './App.css';
-import Home from './pages/Home.js';
+import Home from './pages/Home';
 import Services from './pages/Services';
 import Products from './pages/Product';
-import SignUp from './pages/Signup/Signup';
-import SignIn from './pages/Signin/Signin';
+import SignUpPage from './pages/Sign-up/page.tsx';
+import Signin from './pages/login/page.tsx';
 
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/product" element={<Products />} />
-          <Route path="/signup" element={<SignUp />} />
-          <Route path="/signin" element={<SignIn />} />
+          <Route path="/sign-up" element={<SignUpPage />} />
+          <Route path="/login" element={<Signin />} />
         </Routes>
       </Router>
     </>

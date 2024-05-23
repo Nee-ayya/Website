@@ -51,7 +51,7 @@ function Homebar() {
                         </Link>
                     </li>
                 </ul>
-                {button && (<Link to='/signin'><Button buttonStyle='btn--outline'>SIGN UP / SIGN IN</Button></Link>)}
+                {button && (<Link to='login'><Button buttonStyle='btn--outline'>SIGN UP / SIGN IN</Button></Link>)}
             </div>
         </nav>
     )
