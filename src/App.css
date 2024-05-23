@@ -66,6 +66,7 @@ html, body {
   height: 100vh; /* Full height of the viewport */
   text-align: center;
   background-color: #f0f0f0; /* Background color for better visibility */
+  margin-left: -60px;
 }
 
 .heading {
