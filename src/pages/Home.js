@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
 import Main from '../Components/Main';
-import Cards from '../Components/Cards';
-import Footer from '../Components/Footer';
+import Cards from '../Components/Homepage/Cards';
+import Footer from '../Components/Homepage/Footer';
 
 function Home() {
     return (
