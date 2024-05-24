@@ -49,6 +49,11 @@
     height: 80px;
   }
   
+  .nav-items {
+    height: 80px;
+    color: #fff;
+  }
+
   .nav-links {
     color: #fff;
     display: flex;

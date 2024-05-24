@@ -55,7 +55,7 @@ export default function SignUpPage() {
           <form className="signup-form" onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="username" className="block mb-1">
-                Username
+                Email
               </label>
               <input
                 type="text"
