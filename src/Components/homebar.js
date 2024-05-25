@@ -58,7 +58,7 @@ function Homebar() {
                     </li>
                     <li className='nav-item'>
                         <Link to='../Services' className='nav-links' onClick={ closeMobileMenu }>
-                            Services
+                            Games
                         </Link>
                     </li>
                     <li className='nav-item'>
@@ -70,7 +70,7 @@ function Homebar() {
                 {currentUser ? (
                         <div className='Homebar-container'>
                             {/* <li className='nav-items'> */}
-                                <Link to='../pages/Profile/page.tsx' className='nav-links' onClick={ closeMobileMenu }>
+                                <Link to='/profile' className='nav-links' onClick={ closeMobileMenu }>
                                     Hello, { extractUsername(currentUser.email) }
                                 </Link>
                             {/* </li> */}

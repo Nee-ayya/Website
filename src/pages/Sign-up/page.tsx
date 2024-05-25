@@ -54,7 +54,7 @@ export default function SignUpPage() {
         </div>
           <form className="signup-form" onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="username" className="block mb-1">
+              <label htmlFor="username">
                 Email
               </label>
               <input
@@ -62,12 +62,11 @@ export default function SignUpPage() {
                 id="username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                className="w-full px-3 py-2 border rounded-sm"
                 style={{ marginBottom: '-10px' }}
               />
             </div>
             <div className="form-group">
-              <label htmlFor="password" className="block mb-1">
+              <label htmlFor="password">
                 Password
               </label>
               <input
@@ -75,12 +74,11 @@ export default function SignUpPage() {
                 id="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full px-3 py-2 border rounded-sm"
-                style={{ marginBottom: '7px' }}
+                style={{ marginBottom: '-10px' }}
               />
             </div>
             <div className="form-group">
-              <label htmlFor="confirmPassword" className="block mb-1">
+              <label htmlFor="confirmPassword" >
                 Confirm Password
               </label>
               <input
@@ -88,24 +86,25 @@ export default function SignUpPage() {
                 id="confirmPassword"
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
-                className="w-full px-3 py-2 border rounded-sm"
                 style={{ marginBottom: '7px' }}
               />
-              {error && <p className="text-red-500">{error}</p>}
+              {error && <p>{error}</p>}
             </div>
             <button
               type="submit"
               className="btn-signup"
-              style={{ marginLeft: '6px', marginRight: 'auto', display: 'block' }}
-            >
+              style={{ marginLeft: 'center', marginRight: 'auto', display: 'block' }}>
               Submit
             </button>
           </form>
-          <p style={{ textAlign: 'center' }}>
-              Already have an account? {' '}
-              <Link to="../login">Click here</Link> {' '}
-              to sign in!
+          <div className='text-below'>
+            <p style={{ textAlign: 'center' }}>
+                Already have an account? {' '}
+                <Link to="../login" className='login-link'>Click here</Link> {' '}
+                to sign in!
             </p>
+          </div>
+            
         </div>
     );
 }

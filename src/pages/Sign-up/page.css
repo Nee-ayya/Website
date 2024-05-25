@@ -1,0 +1,85 @@
+/* signup page css */
+/* Center the container */
+.signup-container {
+    background-image: url('/public/images/Center_of_Screen.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    text-align: center;
+    background-color: #f0f0f0; /* Background color for better visibility */
+    margin-left: -60px;
+  }
+  
+  /* Style the form */
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px; /* Fixed width for the form */
+    height: 385px;
+    gap: 15px; /* Space between form elements */
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* margin-top: -50px; */
+    margin-left: 100px; 
+  }
+  
+  /* Style form groups */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the login button */
+  .btn-signup {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-signup:hover {
+    background-color: #555;
+  }
+  
+  .text-below {
+    margin-left: 100px;
+  }
+  
+  /* Style the sign-up link */
+  .login-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the header */
+  .signup-container h2 {
+    margin-bottom: 10px;
+  }

@@ -56,10 +56,6 @@ export default function Signin() {
       <div className="text-below">
         <p>Don't have an account? <Link to="/sign-up"className='signup-link'>Click here</Link> to create one!</p>
       </div>
-      {/* <p>
-        Don't have an account?{' '}
-        <Link to="/signup" className="signup-link">Click here</Link> to create one!
-      </p> */}
     </div>
   );
 };
