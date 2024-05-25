@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Website/static/css/main.2ec47f95.css",
-    "main.js": "/Website/static/js/main.a365170d.js",
+    "main.css": "/Website/static/css/main.fa3929f6.css",
+    "main.js": "/Website/static/js/main.10021d6e.js",
     "static/media/Center_of_Screen.png": "/Website/static/media/Center_of_Screen.a645225494734153afea.png",
     "static/media/Charminar.png": "/Website/static/media/Charminar.8b0331fb9c286b9846df.png",
     "static/media/SRH_Logo-2.png": "/Website/static/media/SRH_Logo-2.fa9701b2cf0fd91ab535.png",
     "index.html": "/Website/index.html",
-    "main.2ec47f95.css.map": "/Website/static/css/main.2ec47f95.css.map",
-    "main.a365170d.js.map": "/Website/static/js/main.a365170d.js.map"
+    "main.fa3929f6.css.map": "/Website/static/css/main.fa3929f6.css.map",
+    "main.10021d6e.js.map": "/Website/static/js/main.10021d6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ec47f95.css",
-    "static/js/main.a365170d.js"
+    "static/css/main.fa3929f6.css",
+    "static/js/main.10021d6e.js"
   ]
 }
